@@ -11,11 +11,11 @@ import { SortButton } from "../../components/SortButton";
 export function Home() {
 
   const imagens = {
-    number: './img/hashtag.png',
-    text: './img/letter.png',
+    number: './images/Vector.png',
+    text: './images/SortButton.png',
   };
 
-  const [pokemons, setPokemons] = useContext(PokedexContext)
+  const [pokemons, setPokemons] = useContext(=PokedexContext)
 
   const [selectedImage, setSelectedImage] = useState(imagens.number);
 

@@ -6,7 +6,7 @@ export function SortButton({selectedImage, handleImageChange}) {
 
   return (
     <Container> 
-      <h1>Sort by:</h1>
+      <h1>Sort button:</h1>
 
       <Content>
       <div style={{display: "flex", flexDirection: "column", justifyContent: "center", width: "50px", margin: "0 auto"}}> 
